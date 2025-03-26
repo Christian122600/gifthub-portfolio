@@ -1,0 +1,162 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+color: #333;
+}
+#about{
+background: linear-gradient(to right, lightblue, white);
+}
+
+a {
+text-decoration: none;
+color: inherit;
+}
+.blog{}
+/* Navigation Bar */
+nav {
+background-color: #333;
+color: white;
+padding: 10px 0;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+nav ul li {
+margin: 0 20px;
+}
+
+nav ul li a {
+color: white;
+font-size: 1.2em;
+padding: 10px 20px;
+transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+background-color: #555;
+border-radius: 5px;
+}
+
+/* Section Styling */
+section {
+padding: 50px 0;
+margin: 20px 0;
+background-color: white;
+}
+
+h2 {
+font-size: 2em;
+color: #333b;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.container {
+width: 80%;
+margin: 0 auto;
+}
+
+p {
+font-size: 1.1em;
+line-height: 1.6;
+text-align: center;
+max-width: 800px;
+margin: 0 auto;
+}
+
+/* Blog Section */
+#blog{
+background: linear-gradient(to right, lightblue, white);
+
+}
+#blog ul {
+list-style-type: none;
+padding: 0;
+text-align: center;
+}
+
+#blog ul li {
+font-size: 1.1em;
+margin: 10px 0;
+}
+
+#blog ul li a {
+color: #0066cc;
+}
+
+#blog ul li a:hover {
+text-decoration: underline;
+}
+
+/* Emojis Section */
+#emojis {
+background: linear-gradient(to right, lightblue, white);
+}
+.emoji-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+font-size: 2.5em;
+margin-top: 20px;
+}
+
+.emoji-container span {
+cursor: pointer;
+transition: transform 0.3s;
+}
+
+.emoji-container span:hover {
+transform: scale(1.3);
+}
+h3{
+text-align: center;
+
+}
+P{
+text-align: left;
+}
+/* Footer */
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 20px 0;
+}
+.facebook-link{
+font-weight: bold;
+color: #3b5998;
+}
+.facebook-link:hover {
+color: #2d4373;
+}
+
+footer p {
+font-size: 1em;
+}
+#contact{
+background: linear-gradient(to right, lightblue, white);
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+.container {
+width: 90%;
+}
+
+h2 {
+font-size: 1.8em;
+}
+
+p {
+font-size: 1em;
+}
+}
